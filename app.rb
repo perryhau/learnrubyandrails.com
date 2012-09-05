@@ -1,13 +1,7 @@
-# dev hint: shotgun login.rb
-
-require 'rubygems'
+require 'bundler'
+Bundler.setup :default
 require 'sinatra'
 
-configure do
-  set :public_folder, Proc.new { File.join(root, "static") }
-end
-
 get '/' do
-  haml :index
+  haml :index, layout: true
 end
-
