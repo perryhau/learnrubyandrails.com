@@ -1,9 +1,4 @@
-- require 'yaml'
-
--# :javascript
--#   var resources = JSON.parse(#{YAML.load_file("#{root}/source/data/resources.yml")})
-
-.container
+.container(ng-controller="AppController")
   %header
     %h1.container A Curated List of Resources for Ruby and Rails Learning
   %section#navigation
