@@ -1,0 +1,27 @@
+- require 'yaml'
+
+-# :javascript
+-#   var resources = JSON.parse(#{YAML.load_file("#{root}/source/data/resources.yml")})
+
+.container
+  %header
+    %h1.container A Curated List of Resources for Ruby and Rails Learning
+  %section#navigation
+    %ul#type
+      %li
+        %input(type="checkbox" name="type" checked)
+        %label Ruby
+      %li
+        %input(type="checkbox" name="type" checked)
+        %label Rails
+    %ul.nav.nav-pills#mode
+      %li.active
+        %a(href='#') All
+      %li
+        %a(href='#') Classroom Based
+      %li
+        %a(href='#') Online Tutored
+      %li
+        %a(href='#') Online Self Study
+      %li
+        %a(href='#') Online Tutorials

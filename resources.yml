@@ -1,0 +1,7 @@
+railstutors:
+  name: Rails Tutors
+  url: http://www.railstutors.com
+  format: Video lectures, live coding sessions, online forum, chat room and office hours
+  cost: 295 regular / 250 early bird
+  duration: 4 weeks
+  coverage: Basic programming and the Ruby language; Basic web and database concepts; Inside out of the Ruby on Rails framework; From zero to build an functional web application
