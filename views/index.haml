@@ -23,19 +23,19 @@
 
   %section#resources
     %ul
-      %li
+      %li(ng-repeat= "resource in resources")
         %img(src='/images/dummy.png')
         %dl
           %dt
-            %h4 Rails Tutors
-            %a(href="http://railstutors.com")
-              http://railstutors.com
+            %h4 {{resource.name}}
+            %a(href="{{resource.url}}")
+              {{resource.url}}
           %dd
             %b Format:
-            %p Video lectures, live coding sessions, online forum, chat room and office hours
+            %p {{resource.format}}
             %b Cost:
-            %p $295 regular / $250 early bird
+            %p {{resource.cost}}
             %b Duration:
-            %p 4 weeks
+            %p {{resource.duration}}
             %b Coverage:
-            %p From zero prior experience to launching a Rails app
+            %p {{resource.coverage}}
