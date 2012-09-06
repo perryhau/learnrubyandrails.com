@@ -33,6 +33,31 @@
   mode:
     - online tutorials
   url: http://ruby.railstutorial.org/
-  format: free online tutorial, ebook, screencasts
+  format: online tutorial, ebook, screencasts
   cost: free online tutorial, $39 for the ebook, $129 for the screencasts
+  duration: N/A
   coverage: Rails 3.2 Basics, Asset Pipeline, Deployment, Data Modeling, Twitter Bootstrap, Behavior Driven Development, authentication
+-
+  name: The Rails Guides
+  slug: the-rails-guides
+  type:
+    - rails
+  mode:
+    - online tutorials
+  url: http://guides.rubyonrails.org/
+  format: online tutorial and documentation
+  cost: free
+  duration: N/A
+  coverage: Everything Rails 3.2
+-
+  name: Ruby Learning
+  slug: ruby-learning
+  type:
+    - ruby
+  mode:
+    - online tutorials
+    - online tutored
+  url: http://rubylearning.com/satishtalim/tutorial.html
+  format: online tutorial, ebook, online tutored courses
+  costs: online tutorial is free; the ebook costs 19.95; the online Ruby course costs $69.95
+  coverage: core ruby concepts
