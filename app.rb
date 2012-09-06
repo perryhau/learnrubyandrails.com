@@ -4,6 +4,10 @@ require 'sinatra'
 require 'json'
 require 'yaml'
 
+configure :production do
+  require 'newrelic_rpm'
+end
+
 get '/' do
   haml :index, layout: true
 end
