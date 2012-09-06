@@ -6,3 +6,6 @@ gem "haml"
 gem 'sass'
 gem 'sprockets'
 gem 'coffee-script'
+gem 'mini_magick'
+gem 'imgkit'
+gem 'pry'

@@ -24,7 +24,7 @@
   %section#resources
     %ul
       %li(ng-repeat= "resource in resources")
-        %img(src='/images/dummy.png')
+        %img(src="/images/snapshots/{{resource.slug}}.png")
         %dl
           %dt
             %h4 {{resource.name}}
