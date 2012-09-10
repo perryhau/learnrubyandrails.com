@@ -4,11 +4,11 @@
   %section#navigation
     %ul#filters
       %li
-        %dl
+        %dl(ng-init="whatToLearn = ''")
           %dt What do you want to learn?
-          %dd Both
-          %dd Ruby
-          %dd Rails
+          %dd(ng-click="whatToLearn = ''") Both
+          %dd(ng-click="whatToLearn = 'ruby'") Ruby
+          %dd(ng-click="whatToLearn = 'rails'") Rails
         %dl
           %dt How would you like to learn?
           %dd All
@@ -32,7 +32,7 @@
 
   %section#resources
     %ul
-      %li(ng-repeat= "resource in resources")
+      %li(ng-repeat= "resource in resources | whatToLearnFilter:whatToLearn")
         %img(src="/images/snapshots/{{resource.slug}}.png")
         %dl
           %dt
