@@ -8,24 +8,24 @@ body
       color: #25271E
 
 section#navigation
-  ul#type
-    list-style-type: none
-    padding: 0
-    margin: 0 0 20px 0
-    overflow: hidden
+  ul
+    margin-left: 0
+    margin-bottom: 40px
     li
-      float: left
-      width: 100px
-      label
-        float: left
-        margin-left: 10px
-      input
-        float: left
-  ul#mode
-    list-style-type: none
-    li
-      float: left
-      margin-right: 30px
+      list-style-type: none
+      dl
+        padding: 0
+        margin-bottom: 16px
+        dt
+          margin-left: 0
+          margin-bottom: 10px
+        dd
+          display: inline
+          margin-left: 20px
+          cursor: hand
+          cursor: pointer
+      #courses, #costs
+        display: none
 
 section#resources
   overflow: hidden
@@ -34,7 +34,7 @@ section#resources
     list-style-type: none
     li
       overflow: hidden
-      border-bottom: 1px solid #E8E8E8
+      border-top: 1px solid #E8E8E8
       padding-bottom: 20px
       margin-bottom: 30px
       img

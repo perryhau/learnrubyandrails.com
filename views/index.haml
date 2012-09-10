@@ -2,24 +2,33 @@
   %header
     %h1.container A Curated List of Resources for Ruby and Rails Learning
   %section#navigation
-    %ul#type
+    %ul#filters
       %li
-        %input(type="checkbox" name="type" checked)
-        %label Ruby
-      %li
-        %input(type="checkbox" name="type" checked)
-        %label Rails
-    %ul.nav.nav-pills#mode
-      %li.active
-        %a(href='#') All
-      %li
-        %a(href='#') Classroom Based
-      %li
-        %a(href='#') Online Tutored
-      %li
-        %a(href='#') Online Self Study
-      %li
-        %a(href='#') Online Tutorials
+        %dl
+          %dt What do you want to learn?
+          %dd Both
+          %dd Ruby
+          %dd Rails
+        %dl
+          %dt How would you like to learn?
+          %dd All
+          %dd Courses
+          %dd Online Tutorials
+          %dd Books
+        %dl#courses
+          %dt What type of courses?
+          %dd All
+          %dd Classroom Based Training
+          %dd Online Tutored
+          %dd Online Self-study
+          %dd Bootcamps
+        %dl#costs
+          %dt How much are you willing to spend?
+          %dd All
+          %dd Free
+          %dd &lt; 100
+          %dd 100 ~ 300
+          %dd &gt; 300
 
   %section#resources
     %ul
