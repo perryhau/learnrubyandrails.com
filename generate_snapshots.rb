@@ -14,12 +14,12 @@ end
 
 resources = YAML.load_file('resources.yml')
 resources.each do |resource|
-  file_name = resource["name"].gsub(' ', '-').downcase
+  file_name = resource['slug']
   file_path = "./tmp/snapshot-#{file_name}.png"
-  IMGKit.new(resource["url"]).to_file(file_path)
+  snapshot_url = resource['snapshot_url'] || resource['url']
+  IMGKit.new(snapshot_url).to_file(file_path)
   image = MiniMagick::Image.open(file_path)
   image.crop '1024x1024+0+0'
   image.resize '200x200'
   image.write "./public/images/snapshots/#{file_name}.png"
 end
-
