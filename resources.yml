@@ -1,22 +1,41 @@
 -
-  name: Why's (Poignant) Guide to Ruby
-  slug: whys-poignant-guide-to-ruby
-  type:
-    - ruby
-  url: http://mislav.uniqpath.com/poignant-guide/
-  snapshot_url: http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html
-  cost: Free
-  description: Everyone's favorite - Learn Ruby with carton foxes!
-
--
   name: Try Ruby
   slug: try-ruby
   type:
     - ruby
   url: http://tryruby.org
+  format_text: online tutorial
+  formats:
+    - tutorial
   snapshot_url: http://tryruby.org/levels/1/challenges/0
   cost: Free
-  description: Code in the browser to go through a series of lessons.
+  description: A series of lessons with challenges that you can go through in the browser to learn the basics of Ruby.
+
+-
+  name: Learn Ruby the Hard Way
+  slug: learn-ruby-the-hard-way
+  type:
+    - ruby
+  url: http://ruby.learncodethehardway.org/
+  format_text: online tutorial
+  formats:
+    - tutorial
+    - book
+  cost: Free for the online tutorial, $2.99 for the e-book
+  description: The Ruby translation of Zed Shaw's popular "Learn Python the Hard Way". It assumes no prior programming background with focus on reading and writing code.
+
+-
+  name: Why's (Poignant) Guide to Ruby
+  slug: whys-poignant-guide-to-ruby
+  type:
+    - ruby
+  url: http://mislav.uniqpath.com/poignant-guide/
+  format_text: online tutorial
+  formats:
+    - tutorial
+  snapshot_url: http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html
+  cost: Free
+  description: Everyone's favorite - Learn Ruby with carton foxes!
 
 -
   name: Learn to Program
@@ -24,8 +43,11 @@
   type:
     - ruby
   url: http://pine.fm/LearnToProgram/
+  format: online tutorial
+  formats:
+    - tutorial
   cost: Free
-  description: The "Ruby for the Nuby" tutorial, good place to start for people that do not have prior programming experience.
+  description: The "Ruby for the Nuby" tutorial by Chris Pine is a good place to start for people that do not have prior programming experience. It's short tutorial that you can go over a few hours.
 
 -
   name: Ruby Koans
@@ -33,6 +55,9 @@
   type:
     - ruby
   url: http://rubykoans.com/
+  format: downloadable hands on tutorial
+  formats:
+    - tutorial
   cost: free
   description: A set of exercises that lead to the enlightment of Ruby programming. Focuses on Ruby syntax, structure and common libraries. Good for experienced developers learning Ruby as another programming language.
 
@@ -41,55 +66,74 @@
   slug: ruby-learning
   type:
     - ruby
-  mode:
-    - online tutorial
-    - online tutored
   url: http://rubylearning.com/satishtalim/tutorial.html
-  format: online tutorial, ebook, online tutored courses
-  costs:
-    - free
-    - 69.95
+  format_text: online tutorial, ebook, online tutored courses
+  formats:
+    - tutorial
+    - course
+    - book
+  cost: The online tutorial is free. the course costs 69.95
   description: Free online tutorial, an e-book and an online Ruby course, covering the core concepts of Ruby programming language.
+
+-
+  name: Ruby Off Rails
+  slug: ruby-off-rails
+  type:
+    - ruby
+  url: https://rubyoffrails.com/
+  format_text: Live coding sessions, exercises, peer discussions and office hours
+  formats:
+    - course
+  cost: 530 regular / 420 early bird
+  description: 6 week course dedicated to advancing developer happiness everywhere. Learn Ruby with TDD, Rspec and Cucumber.
+
+-
+  name: The Rails Tutorial
+  slug: the-rails-tutorial
+  type:
+    - rails
+  format_text: online tutorial, e-book and accompanying screencasts
+  formats:
+    - tutorial
+    - book
+    - videos
+  url: http://ruby.railstutorial.org/
+  cost: free online tutorial, $39 for the ebook, $129 for the screencasts
+  duration: N/A
+  description: Rails 3.2 Basics, Asset Pipeline, Deployment, Data Modeling, Twitter Bootstrap, Behavior Driven Development, authentication
 
 -
   name: Rails Tutors
   slug: rails-tutors
   type:
-    - ruby
     - rails
+  url: http://www.railstutors.com
+  format_text: Video lectures, live coding sessions, online forum, chat room and office hours
+  formats:
+    - course
+  cost: $295 regular / $250 early bird
   mode:
     - online tutored
-  url: http://www.railstutors.com
-  format: Video lectures, live coding sessions, online forum, chat room and office hours
-  cost: $295 regular / $250 early bird
   duration: 4 weeks
   description: Basic programming and the Ruby language; Basic web and database concepts; Inside out of the Ruby on Rails framework; From zero to build an functional web application
+
 -
   name: Pragmatic Studios
   slug: pragmatic-studios
   type:
     - ruby
     - rails
-  mode:
+  url: http://pragmaticstudio.com
+  format_text: Online videos for Ruby courses; Classroom based training for Rails courses
+  formats:
+    - videos
+  cost: $199 for video based Ruby courses; $2295 for classroom based Rails courses. Discounts available
+  course_mode:
     - classroom based
     - online self study
-  url: http://pragmaticstudio.com
-  format: Online videos for Ruby courses; Classroom based training for Rails courses
-  cost: $199 for video based Ruby courses; $2295 for classroom based Rails courses. Discounts available
   duration: self study for the Ruby course; 3 days for the Rails course
   description: The Ruby course - Object Oriented Ruby Programming; The Rails course - Learn the important features of Rails by creating a full-featured app from start to finish.
--
-  name: The Rails Tutorial
-  slug: the-rails-tutorial
-  type:
-    - rails
-  mode:
-    - online tutorial
-  url: http://ruby.railstutorial.org/
-  format: online tutorial, ebook, screencasts
-  cost: free online tutorial, $39 for the ebook, $129 for the screencasts
-  duration: N/A
-  description: Rails 3.2 Basics, Asset Pipeline, Deployment, Data Modeling, Twitter Bootstrap, Behavior Driven Development, authentication
+
 -
   name: The Rails Guides
   slug: the-rails-guides
@@ -98,7 +142,8 @@
   mode:
     - online tutorial
   url: http://guides.rubyonrails.org/
-  format: online tutorial and documentation
+  format_text: online tutorial and documentation
+  formats:
+    - tutorial
   cost: free
-  duration: N/A
   description: Everything Rails 3.2

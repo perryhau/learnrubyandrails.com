@@ -6,15 +6,16 @@
       %li
         %dl(ng-init="whatToLearn = ''")
           %dt What do you want to learn?
-          %dd(ng-click="whatToLearn = ''") Both
+          %dd.label.label-important(ng-click="whatToLearn = ''") Both
           %dd(ng-click="whatToLearn = 'ruby'") Ruby
           %dd(ng-click="whatToLearn = 'rails'") Rails
-        %dl
+        %dl(ng-init="howToLearn = ''")
           %dt How would you like to learn?
-          %dd All
-          %dd Courses
-          %dd Online Tutorials
-          %dd Books
+          %dd(ng-click="howToLearn = ''") All
+          %dd.label.label-important(ng-click="howToLearn = 'course'") Courses
+          %dd(ng-click="howToLearn = 'tutorial'") Online Tutorials
+          %dd(ng-click="howToLearn = 'videos'") Videos
+          %dd(ng-click="howToLearn = 'book'") Books
         %dl#courses
           %dt What type of courses?
           %dd All
@@ -32,19 +33,24 @@
 
   %section#resources
     %ul
-      %li(ng-repeat= "resource in resources | whatToLearnFilter:whatToLearn")
-        %img(src="/images/snapshots/{{resource.slug}}.png")
+      %li(ng-repeat= "resource in resources | whatToLearnFilter:whatToLearn| howToLearnFilter:howToLearn")
+        %img(ng-src="/images/snapshots/{{resource.slug}}.png")
         %dl
           %dt
             %h4 {{resource.name}}
             %a(href="{{resource.url}}")
               {{resource.url}}
           %dd
-            %b Format:
-            %p {{resource.format}}
-            %b Cost:
-            %p {{resource.cost}}
-            %b Duration:
-            %p {{resource.duration}}
-            %b Coverage:
-            %p {{resource.coverage}}
+            %ul
+              %li(ng-show="resource.format_text.length > 0")
+                %b Format:
+                %p {{resource.format_text}}
+              %li(ng-show="resource.cost.length > 0")
+                %b Cost:
+                %p {{resource.cost}}
+              %li(ng-show="resource.duration.length > 0")
+                %b Duration:
+                %p {{resource.duration}}
+              %li(ng-show="resource.description.length > 0")
+                %b Description:
+                %p {{resource.description}}
