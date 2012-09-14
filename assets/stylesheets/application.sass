@@ -1,5 +1,5 @@
 body
-  background: url('/images/background.png')
+  background: url('/images/bg.jpg')
   header
     padding: 20px 0
     h1
@@ -8,29 +8,33 @@ body
       color: #25271E
 
 section#navigation
-  .selected
-    background-color: yellow
-  ul
-    margin-left: 0
-    margin-bottom: 40px
-    li
-      list-style-type: none
-      dl
-        padding: 0
-        margin-bottom: 16px
-        dt
-          margin-left: 0
-          margin-bottom: 10px
-        dd
-          display: inline
-          margin-left: 20px
-          cursor: hand
-          cursor: pointer
-      #courses, #costs
-        display: none
+  padding: 20px
+  background-color: #E1E0DA
+  dl
+    padding: 0
+    margin: 10px 0
+    dt
+      margin-left: 0
+      margin-bottom: 10px
+    dd
+      display: block
+      float: left
+      margin-left: 20px
+      padding: 5px 10px
+      span
+        display: block
+        cursor: pointer
+        padding: 5px 10px
+        text-align: center
+        margin: 0 auto
+        line-height: 14px
+
+  #courses, #costs
+    display: none
 
 section#resources
-  overflow: hidden
+  margin: 0
+  padding: 0
   > ul
     margin-left: 0
     list-style-type: none
