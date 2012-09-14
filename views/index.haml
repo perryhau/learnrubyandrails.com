@@ -1,39 +1,33 @@
 .container(ng-controller="AppController")
   %header
     %h1.container A Curated List of Resources for Ruby and Rails Learning
-  %section#navigation
-    %ul#filters
-      %li
-        %dl(ng-init="whatToLearn = ''")
-          %dt What do you want to learn?
-          %dd.label.label-important(ng-click="whatToLearn = ''") Both
-          %dd(ng-click="whatToLearn = 'ruby'") Ruby
-          %dd(ng-click="whatToLearn = 'rails'") Rails
-        %dl(ng-init="howToLearn = ''")
-          %dt How would you like to learn?
-          %dd(ng-click="howToLearn = ''") All
-          %dd.label.label-important(ng-click="howToLearn = 'course'") Courses
-          %dd(ng-click="howToLearn = 'tutorial'") Online Tutorials
-          %dd(ng-click="howToLearn = 'videos'") Videos
-          %dd(ng-click="howToLearn = 'book'") Books
-        %dl#courses
-          %dt What type of courses?
-          %dd All
-          %dd Classroom Based Training
-          %dd Online Tutored
-          %dd Online Self-study
-          %dd Bootcamps
-        %dl#costs
-          %dt How much are you willing to spend?
-          %dd All
-          %dd Free
-          %dd &lt; 100
-          %dd 100 ~ 300
-          %dd &gt; 300
+  %section#navigation.hero-unit
+    %dl.row
+      %dt What do you want to learn?
+      %dd.span1(ng-repeat="topic in topics" ng-click="selectTopic(topic)")
+        %span(ng-class="topicClass(topic)") {{topic}}
+    %dl.row
+      %dt How would you like to learn?
+      %dd.span1(ng-repeat="category in categories" ng-click="selectCategory(category)" )
+        %span(ng-class="categoryClass(category)") {{category}}
+    %dl#courses
+      %dt What type of courses?
+      %dd All
+      %dd Classroom Based Training
+      %dd Online Tutored
+      %dd Online Self-study
+      %dd Bootcamps
+    %dl#costs
+      %dt How much are you willing to spend?
+      %dd All
+      %dd Free
+      %dd &lt; 100
+      %dd 100 ~ 300
+      %dd &gt; 300
 
-  %section#resources
+  %section#resources.row
     %ul
-      %li(ng-repeat= "resource in resources | whatToLearnFilter:whatToLearn| howToLearnFilter:howToLearn")
+      %li(ng-repeat= "resource in resources | whatToLearnFilter:topicSelected| howToLearnFilter:categorySelected")
         %img(ng-src="/images/snapshots/{{resource.slug}}.png")
         %dl
           %dt
@@ -42,9 +36,9 @@
               {{resource.url}}
           %dd
             %ul
-              %li(ng-show="resource.format_text.length > 0")
+              %li(ng-show="resource.format.length > 0")
                 %b Format:
-                %p {{resource.format_text}}
+                %p {{resource.format}}
               %li(ng-show="resource.cost.length > 0")
                 %b Cost:
                 %p {{resource.cost}}

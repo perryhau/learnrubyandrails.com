@@ -1,7 +1,7 @@
 app = angular.module('learnRubyAndRails', [])
 app.filter 'whatToLearnFilter', ->
   (resources, whatToLearn) ->
-    return resources if whatToLearn == ''
+    return resources if whatToLearn == 'Both'
     result = []
     i = 0
     while i < resources.length
@@ -12,12 +12,11 @@ app.filter 'whatToLearnFilter', ->
 
 app.filter 'howToLearnFilter', ->
   (resources, howToLearn) ->
-    return resources if howToLearn == ''
+    return resources if howToLearn == 'All'
     result = []
     i = 0
     while i < resources.length
-      console.log(howToLearn)
-      if resources[i]['formats'].indexOf(howToLearn) >= 0
+      if resources[i]['categories'].indexOf(howToLearn) >= 0
         result.push resources[i]
       i++
     result
