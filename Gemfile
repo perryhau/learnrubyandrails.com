@@ -4,6 +4,7 @@ gem "sinatra"
 gem "shotgun"
 gem "haml"
 gem 'sass'
+gem 'sass-twitter-bootstrap'
 gem 'sprockets'
 gem 'coffee-script'
 gem 'mini_magick'
