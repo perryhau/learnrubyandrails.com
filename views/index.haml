@@ -27,7 +27,7 @@
 
   %section#resources.row
     %ul
-      %li(ng-repeat= "resource in resources | whatToLearnFilter:topicSelected| howToLearnFilter:categorySelected")
+      %li(ng-repeat= "resource in resources | topicFilter:topicSelected | categoryFilter:categorySelected")
         %img(ng-src="/images/snapshots/{{resource.slug}}.png")
         %dl
           %dt
