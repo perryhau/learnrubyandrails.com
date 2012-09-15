@@ -20,3 +20,11 @@ app.filter 'categoryFilter', ->
         result.push resources[i]
       i++
     result
+
+app.filter 'courseTypeFilter', ->
+  (resources, courseType) ->
+    return unless resources
+    result = []
+    for resource in resources
+      result.push resource if resource['course_type']?.indexOf(courseType) >= 0
+    result

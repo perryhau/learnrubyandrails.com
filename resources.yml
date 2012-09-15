@@ -107,8 +107,8 @@
   categories:
     - Online Courses
   cost: $295 regular / $250 early bird
-  mode:
-    - online tutored
+  course_type:
+    - Instructor Led
   duration: 4 weeks
   description: Basic programming and the Ruby language; Basic web and database concepts; Inside out of the Ruby on Rails framework; From zero to build an functional web application
 

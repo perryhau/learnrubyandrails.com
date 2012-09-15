@@ -19,3 +19,12 @@ window.AppController = ($scope, $http) ->
 
   $scope.categoryClass = (category) ->
     if $scope.categorySelected == category then 'label label-important' else undefined
+
+  $scope.courseTypes = ['Instructor Led', 'Self Study']
+  $scope.courseTypeSelected = 'Instructor Led'
+
+  $scope.selectCourseType = (courseType) ->
+    $scope.courseTypeSelected = courseType
+
+  $scope.courseTypeClass = (courseType) ->
+    if $scope.courseTypeSelected == courseType then 'label label-important' else undefined

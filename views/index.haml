@@ -10,24 +10,14 @@
       %dt How would you like to learn?
       %dd(ng-repeat="category in categories" ng-click="selectCategory(category)")
         %span(ng-class="categoryClass(category)") {{category}}
-    %dl#courses
-      %dt What type of courses?
-      %dd All
-      %dd Classroom Based Training
-      %dd Online Tutored
-      %dd Online Self-study
-      %dd Bootcamps
-    %dl#costs
-      %dt How much are you willing to spend?
-      %dd All
-      %dd Free
-      %dd &lt; 100
-      %dd 100 ~ 300
-      %dd &gt; 300
+    %dl.row(ng-show="categorySelected == 'Online Courses'")
+      %dt What type of online courses?
+      %dd(ng-repeat="courseType in courseTypes" ng-click="selectCourseType(courseType)" )
+        %span(ng-class="courseTypeClass(courseType)") {{courseType}}
 
   %section#resources.row
     %ul
-      %li(ng-repeat= "resource in resources | topicFilter:topicSelected | categoryFilter:categorySelected")
+      %li(ng-repeat= "resource in resources | topicFilter:topicSelected | categoryFilter:categorySelected | courseTypeFilter:courseTypeSelected")
         %img(ng-src="/images/snapshots/{{resource.slug}}.png")
         %dl
           %dt
