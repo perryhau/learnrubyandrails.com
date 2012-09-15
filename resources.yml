@@ -4,7 +4,7 @@
   topics:
     - Ruby
   url: http://tryruby.org
-  format: online tutorial
+  format: Online tutorial
   categories:
     - Tutorials
   snapshot_url: http://tryruby.org/levels/1/challenges/0
@@ -17,7 +17,7 @@
   topics:
     - Ruby
   url: http://ruby.learncodethehardway.org/
-  format: online tutorial
+  format: Online tutorial
   categories:
     - Tutorials
   cost: Free for the online tutorial, $2.99 for the e-book
@@ -29,7 +29,7 @@
   topics:
     - Ruby
   url: http://mislav.uniqpath.com/poignant-guide/
-  format: online tutorial
+  format: Online tutorial
   categories:
     - Tutorials
   snapshot_url: http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html
@@ -42,7 +42,7 @@
   topics:
     - Ruby
   url: http://pine.fm/LearnToProgram/
-  format: online tutorial
+  format: Online tutorial
   categories:
     - Tutorials
   cost: Free
@@ -66,7 +66,7 @@
   topics:
     - Ruby
   url: http://rubylearning.com/satishtalim/tutorial.html
-  format: online tutorial, ebook, online tutored courses
+  format: Online tutorial, ebook, online tutored courses
   categories:
     - Tutorials
     - Online Courses
@@ -90,12 +90,11 @@
   slug: the-rails-tutorial
   topics:
     - Rails
-  format: online tutorial, e-book and accompanying screencasts
+  format: Online tutorial, e-book and accompanying screencasts
   categories:
     - Tutorials
   url: http://ruby.railstutorial.org/
   cost: free online tutorial, $39 for the ebook, $129 for the screencasts
-  duration: N/A
   description: Rails 3.2 Basics, Asset Pipeline, Deployment, Data Modeling, Twitter Bootstrap, Behavior Driven Development, authentication
 
 -
