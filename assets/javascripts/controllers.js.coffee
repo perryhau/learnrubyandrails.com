@@ -2,8 +2,8 @@ window.AppController = ($scope, $http) ->
   $http.get("/data").success (data) ->
     $scope.resources = data
 
-  $scope.topics = ['Both', 'Ruby', 'Rails']
-  $scope.topicSelected = 'Both'
+  $scope.topics = ['Ruby', 'Rails']
+  $scope.topicSelected = 'Ruby'
 
   $scope.selectTopic = (topic) ->
     $scope.topicSelected = topic
@@ -11,8 +11,8 @@ window.AppController = ($scope, $http) ->
   $scope.topicClass = (topic) ->
     if $scope.topicSelected == topic then 'label label-important' else undefined
 
-  $scope.categories = ['All', 'Courses', 'Tutorials', 'Videos', 'Books']
-  $scope.categorySelected = 'All'
+  $scope.categories = ['Tutorials', 'Online Courses', 'Screencasts', 'Books', 'In Person Training']
+  $scope.categorySelected = 'Tutorials'
 
   $scope.selectCategory = (category) ->
     $scope.categorySelected = category
