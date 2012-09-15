@@ -81,9 +81,10 @@
     - Ruby
   url: https://rubyoffrails.com/
   format: Live coding sessions, exercises, peer discussions and office hours
+  cost: 530 regular / 420 early bird
   categories:
     - Online Courses
-  cost: 530 regular / 420 early bird
+  course_type: Instructor Led
   description: 6 week course dedicated to advancing developer happiness everywhere. Learn Ruby with TDD, Rspec and Cucumber.
 
 -
