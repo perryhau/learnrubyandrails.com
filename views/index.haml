@@ -4,11 +4,11 @@
   %section#navigation.hero-unit
     %dl.row
       %dt What do you want to learn?
-      %dd.span1(ng-repeat="topic in topics" ng-click="selectTopic(topic)")
+      %dd(ng-repeat="topic in topics" ng-click="selectTopic(topic)")
         %span(ng-class="topicClass(topic)") {{topic}}
     %dl.row
       %dt How would you like to learn?
-      %dd.span1(ng-repeat="category in categories" ng-click="selectCategory(category)" )
+      %dd(ng-repeat="category in categories" ng-click="selectCategory(category)")
         %span(ng-class="categoryClass(category)") {{category}}
     %dl#courses
       %dt What type of courses?
