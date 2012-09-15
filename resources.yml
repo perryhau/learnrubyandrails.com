@@ -70,6 +70,7 @@
   categories:
     - Tutorials
     - Online Courses
+  course_type: Instructor Led
   cost: The online tutorial is free. the course costs 69.95
   description: Free online tutorial, an e-book and an online Ruby course, covering the core concepts of Ruby programming language.
 
