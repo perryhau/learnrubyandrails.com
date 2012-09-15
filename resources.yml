@@ -117,15 +117,25 @@
   slug: pragmatic-studios
   topics:
     - Ruby
-    - Rails
   url: http://pragmaticstudio.com
-  format: Online videos for Ruby courses; Classroom based training for Rails courses
+  format: Videos and Screencasts
   categories:
     - Screencasts
+  cost: $199
+  description: Teach Object Oriented Ruby programming
+
+-
+  name: Pragmatic Studios
+  slug: pragmatic-studios
+  topics:
+    - Rails
+  url: http://pragmaticstudio.com
+  format: Classroom based in person training
+  categories:
     - In Person Training
-  cost: $199 for video based Ruby courses; $2295 for classroom based Rails courses. Discounts available
-  duration: self study for the Ruby course; 3 days for the Rails course
-  description: The Ruby course - Object Oriented Ruby Programming; The Rails course - Learn the important features of Rails by creating a full-featured app from start to finish.
+  cost: $2295, discounts available
+  duration: 3 days
+  description: The Rails course - Learn the important features of Rails by creating a full-featured app from start to finish.
 
 -
   name: The Rails Guides
