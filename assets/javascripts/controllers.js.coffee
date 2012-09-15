@@ -16,8 +16,6 @@ manageTopics = ($scope) ->
   $scope.topicClass = (topic) ->
     if $scope.topicSelected == topic then 'label label-important' else undefined
 
-
-
 manageCourseTypes = ($scope) ->
   $scope.courseTypes = ['Instructor Led', 'Self Study']
   $scope.courseTypeSelected = undefined
