@@ -1,17 +1,4 @@
 -
-  name: Try Ruby
-  slug: try-ruby
-  topics:
-    - Ruby
-  url: http://tryruby.org
-  format: Online tutorial
-  categories:
-    - Tutorials
-  snapshot_url: http://tryruby.org/levels/1/challenges/0
-  cost: Free
-  description: A series of lessons with challenges that you can go through in the browser to learn the basics of Ruby.
-
--
   name: Learn Ruby the Hard Way
   slug: learn-ruby-the-hard-way
   topics:
@@ -145,10 +132,89 @@
   topics:
     - Rails
   categories:
-    - Tutorial
+    - Tutorials
   url: http://guides.rubyonrails.org/
   format: online tutorial and documentation
-  categories:
-    - Tutorials
   cost: free
   description: Everything Rails 3.2
+-
+  name: RailsCasts
+  slug: rails-casts
+  topics:
+    - Rails
+  categories:
+    - Screencasts
+  url: http://railscasts.com
+  format: Screencasts with code snippets with transcript (ASCIIcast). Generally covers one topic in each screencast.
+  cost: $9 for pro episodes; free episodes also available
+  description: RailsCasts releases one free episodes every two weeks and one pro episode per week. Each episode tends to focus on a specfic topic, technology or library with code demo.
+-
+  name: Try Ruby
+  slug: try-ruby
+  topics:
+    - Ruby
+  url: http://tryruby.org
+  snapshot_url: http://tryruby.org/levels/1/challenges/0
+  format: Interactive online course
+  categories:
+    - Online Courses
+  course_type:
+    - Self Study
+  cost: Free
+  description: A series of lessons with challenges that you can go through in the browser to learn the basics of Ruby.
+
+-
+  name: Code School (Ruby Bits)
+  slug: ruby-bits
+  topics:
+    - Ruby
+  categories:
+    - Online Courses
+  course_type:
+    - Self Study
+  url: http://www.codeschool.com/courses/ruby-bits
+  format: Interactive online course
+  cost: $55 or with a Code School membership which is $25 / month.
+  description: Covers the more powerful features of Ruby including expressions, methods and classes, ActiveSupport, modules and blocks. You can earn badges and prizes.
+
+-
+  name: Rails for Zombies
+  slug: rails-for-zombies
+  topics:
+    - Rails
+  categories:
+    - Online Courses
+  course_type:
+    - Self Study
+  url: http://railsforzombies.org/
+  format: Interactive online course
+  cost: Free
+  description: Learn Ruby on Rails in the browser; Go through five videos and exercises to earn zombie badges.
+
+-
+  name: Code School (Rails courses)
+  slug: code-school
+  topics:
+    - Rails
+  categories:
+    - Online Courses
+  course_type:
+    - Self Study
+  url: http://www.codeschool.com
+  format: Interactive online course
+  cost: $55 per course, or with a Code School membership which is $55 / month.
+  description: Code School has three Rails online courses - Rails for Zombies 2, Rails Best Practices and Rails Testing for Zombies. They cover Advanced Rails topics, Best Practice of Rails and foundmentals of Rails testing.
+
+-
+  name: Owning Rails
+  slug: owning-rails
+  topics:
+    - Rails
+  categories:
+    - Online Courses
+  course_type:
+    - Instructor Led
+  url: http://owningrails.com/
+  format: 8 hours of live sessions over two days, with presentation and live coding.
+  cost: 529 CAD(539 USD) regular / $479 CAD(488 USD) early bird
+  description: Covers design patterns and architecture of the Rails framework and how to navigate the Rails source code. This course is for experienced developers.
