@@ -149,6 +149,18 @@
   description: RailsCasts releases one free episodes every two weeks and one pro episode per week. Each episode tends to focus on a specfic topic, technology or library with code demo.
 
 -
+  name: Destroy All Software
+  slug: destroy-all-software
+  topics:
+    - Rails
+  categories:
+    - Screencasts
+  url: http://www.destroyallsoftware.com
+  format: Screencasts
+  cost: $9 / month
+  description: Destroy All Software releases one screencast every two weeks. Popular topics include UNIX command line and programming, Vim and Git tips, Rails, Test Driven Development. Contents tend to be at intermediate / advanced levels.
+
+-
   name: Try Ruby
   slug: try-ruby
   topics:
@@ -162,6 +174,20 @@
     - Self Study
   cost: Free
   description: A series of lessons with challenges that you can go through in the browser to learn the basics of Ruby.
+
+-
+  name: Ruby Monk
+  slug: ruby-monk
+  topics:
+    - Ruby
+  url: http://rubymonk.com/
+  format: Interactive online course
+  categories:
+    - Online Courses
+  course_type:
+    - Self Study
+  cost: Free
+  description: Ruby Monk has 2 free courses - "Ruby Primer" And "Metaprogramming Ruby", and two paid courses - "Ruby Primer - Ascent" and "Metaprogramming Ruby - Ascent". It has text as well as runnable code snippets in the browser. Pass those exercises to make your Master proud.
 
 -
   name: Code School (Ruby Bits)
