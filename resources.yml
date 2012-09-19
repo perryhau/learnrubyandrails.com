@@ -1,16 +1,4 @@
 -
-  name: Learn Ruby the Hard Way
-  slug: learn-ruby-the-hard-way
-  topics:
-    - Ruby
-  url: http://ruby.learncodethehardway.org/
-  format: Online tutorial
-  categories:
-    - Tutorials
-  cost: Free for the online tutorial, $2.99 for the e-book
-  description: The Ruby translation of Zed Shaw's popular "Learn Python the Hard Way". It assumes no prior programming background with focus on reading and writing code.
-
--
   name: Why's (Poignant) Guide to Ruby
   slug: whys-poignant-guide-to-ruby
   topics:
@@ -33,7 +21,19 @@
   categories:
     - Tutorials
   cost: Free
-  description: The "Ruby for the Nuby" tutorial by Chris Pine is a good place to start for people that do not have prior programming experience. It's short tutorial that you can go over a few hours.
+  description: The "Ruby for the Nuby" tutorial by Chris Pine is a good place to start for people that do not have prior programming experience. It's a short tutorial that you can go over in a few hours.
+
+-
+  name: Learn Ruby the Hard Way
+  slug: learn-ruby-the-hard-way
+  topics:
+    - Ruby
+  url: http://ruby.learncodethehardway.org/
+  format: Online tutorial
+  categories:
+    - Tutorials
+  cost: Free for the online tutorial, $2.99 for the e-book
+  description: The Ruby translation of Zed Shaw's popular "Learn Python the Hard Way". It assumes no prior programming background with focus on reading and writing code.
 
 -
   name: Ruby Koans
@@ -135,6 +135,7 @@
   format: online tutorial and documentation
   cost: free
   description: Everything Rails 3.2
+
 -
   name: RailsCasts
   slug: rails-casts
@@ -146,6 +147,7 @@
   format: Screencasts with code snippets with transcript (ASCIIcast). Generally covers one topic in each screencast.
   cost: $9 for pro episodes; free episodes also available
   description: RailsCasts releases one free episodes every two weeks and one pro episode per week. Each episode tends to focus on a specfic topic, technology or library with code demo.
+
 -
   name: Try Ruby
   slug: try-ruby
