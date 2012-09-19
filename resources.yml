@@ -87,6 +87,18 @@
   description: Rails 3.2 Basics, Asset Pipeline, Deployment, Data Modeling, Twitter Bootstrap, Behavior Driven Development, authentication
 
 -
+  name: Rails Apps
+  slug: rails-apps
+  topics:
+    - Rails
+  format: Online tutorial and documentation
+  categories:
+    - Tutorials
+  url: http://railsapps.github.com
+  cost: Free
+  description: Example applications accompanied by in-depth tutorials that go beyond Rails lessons for beginners.
+
+-
   name: Rails Tutors
   slug: rails-tutors
   topics:
