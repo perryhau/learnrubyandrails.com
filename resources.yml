@@ -98,8 +98,7 @@
   cost: $295 regular / $250 early bird
   course_type:
     - Instructor Led
-  duration: 4 weeks
-  description: Basic programming and the Ruby language; Basic web and database concepts; Inside out of the Ruby on Rails framework; From zero to build an functional web application
+  description: Four week online course that teachs the basics of Ruby on Rails 3, from the basics to building an app from ground up. The course follows the steps of "tell / show / challenge / explain", providing video lessons with homework assignments and a course project to focus on buiding. There are two office hours every week for live coding sessions, code critiques and Q&A sessions. There's also offline support with online forum and chat rooms.
 
 -
   name: Pragmatic Studios
@@ -123,7 +122,6 @@
   categories:
     - In Person Training
   cost: $2295, discounts available
-  duration: 3 days
   description: The Rails course - Learn the important features of Rails by creating a full-featured app from start to finish.
 
 -
@@ -218,3 +216,30 @@
   format: 8 hours of live sessions over two days, with presentation and live coding.
   cost: 529 CAD(539 USD) regular / $479 CAD(488 USD) early bird
   description: Covers design patterns and architecture of the Rails framework and how to navigate the Rails source code. This course is for experienced developers.
+
+-
+  name: Ready Set Rails
+  slug: ready-set-rails
+  topics:
+    - Rails
+  categories:
+    - Online Courses
+  course_type:
+    - Instructor Led
+  url: http://live.readysetrails.com/signup/
+  format: 8 hours of live sessions over two days with presentationg and live coding.
+  cost: $529 regular / $397 and $449 available for early birds
+  description: Launch a web app while going through this course. Instructors available for consultation to tailor the workshop for students needs.
+
+-
+  name: Jumpstart Lab
+  slug: jumpstart-lab
+  topics:
+    - Ruby
+    - Rails
+  categories:
+    - In Person Training
+  format: Classroom based in Personal Training
+  url: http://www.jumpstartlab.com
+  cost: Depends on desired customation
+  description: Jumpstart Lab offers customizable Ruby and Rails training. Introductory, intermediate and advanced topics for both Ruby and Rails are available.
