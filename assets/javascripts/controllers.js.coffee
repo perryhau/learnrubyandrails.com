@@ -27,7 +27,7 @@ manageCourseTypes = ($scope) ->
     if $scope.courseTypeSelected == courseType then 'label label-important' else undefined
 
 manageCategories = ($scope) ->
-  $scope.categories = ['Online Courses', 'In Person Training', 'Tutorials', 'Screencasts', 'Books']
+  $scope.categories = ['Tutorials', 'Online Courses', 'In Person Training', 'Screencasts', 'Books']
   $scope.categorySelected = 'Tutorials'
 
   $scope.selectCategory = (category) ->
