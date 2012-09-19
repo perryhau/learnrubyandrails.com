@@ -144,8 +144,8 @@
   categories:
     - Screencasts
   url: http://railscasts.com
-  format: Screencasts with code snippets with transcript (ASCIIcast). Generally covers one topic in each screencast.
-  cost: $9 for pro episodes; free episodes also available
+  format: Screencasts with code snippets and transcript (ASCIIcast). Generally covers one topic in each screencast.
+  cost: $9 / month for pro episodes; free episodes also available
   description: RailsCasts releases one free episodes every two weeks and one pro episode per week. Each episode tends to focus on a specfic topic, technology or library with code demo.
 
 -
