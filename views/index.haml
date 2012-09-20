@@ -1,37 +1,36 @@
-.container(ng-controller="AppController")
-  %header
-    %h1.container A Curated List of Resources for Ruby and Rails Learning
-  %section#navigation.hero-unit
-    %dl.row
-      %dt What do you want to learn?
-      %dd(ng-repeat="topic in topics" ng-click="selectTopic(topic)")
-        %span(ng-class="topicClass(topic)") {{topic}}
-    %dl.row
-      %dt How would you like to learn?
-      %dd(ng-repeat="category in categories" ng-click="selectCategory(category)")
-        %span(ng-class="categoryClass(category)") {{category}}
-    %dl.row(ng-show="categorySelected == 'Online Courses'")
-      %dt What type of online courses?
-      %dd(ng-repeat="courseType in courseTypes" ng-click="selectCourseType(courseType)" )
-        %span(ng-class="courseTypeClass(courseType)") {{courseType}}
+%header
+  %h1.container A Curated List of Resources for Ruby and Rails Learning
+%section#navigation.hero-unit
+  %dl.row
+    %dt What do you want to learn?
+    %dd(ng-repeat="topic in topics" ng-click="selectTopic(topic)")
+      %span(ng-class="topicClass(topic)") {{topic}}
+  %dl.row
+    %dt How would you like to learn?
+    %dd(ng-repeat="category in categories" ng-click="selectCategory(category)")
+      %span(ng-class="categoryClass(category)") {{category}}
+  %dl.row(ng-show="categorySelected == 'Online Courses'")
+    %dt What type of online courses?
+    %dd(ng-repeat="courseType in courseTypes" ng-click="selectCourseType(courseType)" )
+      %span(ng-class="courseTypeClass(courseType)") {{courseType}}
 
-  %section#resources.row
-    %ul
-      %li(ng-repeat= "resource in resources | topicFilter:topicSelected | categoryFilter:categorySelected | courseTypeFilter:courseTypeSelected")
-        %img(ng-src="/images/snapshots/{{resource.slug}}.png")
-        %dl
-          %dt
-            %h4 {{resource.name}}
-            %a(ng-href="{{resource.url}}")
-              {{resource.url}}
-          %dd
-            %ul
-              %li(ng-show="resource.format.length > 0")
-                %b Format:
-                %p {{resource.format}}
-              %li(ng-show="resource.cost.length > 0")
-                %b Cost:
-                %p {{resource.cost}}
-              %li(ng-show="resource.description.length > 0")
-                %b Description:
-                %p {{resource.description}}
+%section#resources.row
+  %ul
+    %li(ng-repeat= "resource in resources | topicFilter:topicSelected | categoryFilter:categorySelected | courseTypeFilter:courseTypeSelected")
+      %img(ng-src="/images/snapshots/{{resource.slug}}.png")
+      %dl
+        %dt
+          %h4 {{resource.name}}
+          %a(ng-href="{{resource.url}}")
+            {{resource.url}}
+        %dd
+          %ul
+            %li(ng-show="resource.format.length > 0")
+              %b Format:
+              %p {{resource.format}}
+            %li(ng-show="resource.cost.length > 0")
+              %b Cost:
+              %p {{resource.cost}}
+            %li(ng-show="resource.description.length > 0")
+              %b Description:
+              %p {{resource.description}}
