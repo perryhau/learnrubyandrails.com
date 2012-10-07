@@ -107,7 +107,7 @@
   format: Video lectures, live coding sessions, online forum, chat room and office hours
   categories:
     - Online Courses
-  cost: $295 regular / $250 early bird
+  cost: $295 regular / $270 early bird
   course_type:
     - Instructor Led
   description: Four week online course that teachs the basics of Ruby on Rails 3, from the basics to building an app from ground up. The course follows the steps of "tell / show / challenge / explain", providing video lessons with homework assignments and a course project to focus on buiding. There are two office hours every week for live coding sessions, code critiques and Q&A sessions. There's also offline support with online forum and chat rooms.
