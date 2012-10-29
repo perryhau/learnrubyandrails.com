@@ -212,7 +212,7 @@
     - Self Study
   url: http://www.codeschool.com/courses/ruby-bits
   format: Interactive online course
-  cost: $55 or with a Code School membership which is $25 / month.
+  cost: Code School membership is $25 / month.
   description: Covers the more powerful features of Ruby including expressions, methods and classes, ActiveSupport, modules and blocks. You can earn badges and prizes.
 
 -
@@ -240,7 +240,7 @@
     - Self Study
   url: http://www.codeschool.com
   format: Interactive online course
-  cost: $55 per course, or with a Code School membership which is $55 / month.
+  cost: Code School membership is $25 / month.
   description: Code School has three Rails online courses - Rails for Zombies 2, Rails Best Practices and Rails Testing for Zombies. They cover Advanced Rails topics, Best Practice of Rails and foundmentals of Rails testing.
 
 -
