@@ -230,6 +230,20 @@
   description: Learn Ruby on Rails in the browser; Go through five videos and exercises to earn zombie badges.
 
 -
+  name : UT on Rails
+  slug: ut-on-rails
+  topics:
+    - Rails
+  categories:
+    - Online Courses
+  course_type:
+    - Self Study
+  url: http://schneems.com/ut-rails
+  format: Structured Self Study Online Course
+  cost: Free
+  description: The Ruby on Rails course that Richard Schneeman teaches at University of Texas. Beginner friendly material with videos, exercises and quizes.
+
+-
   name: Code School (Rails courses)
   slug: code-school
   topics:
@@ -296,3 +310,15 @@
   url: http://davincicoders.com/
   cost: $6000
   description: DaVinci Coders is a full-immersion 11-week classroom training program designed to teach people with drive and passion the fine art of computer programming.
+
+-
+  name: Ruby Tapas
+  slug: ruby-tapas
+  topics:
+    - Ruby
+  url: http://devblog.avdi.org/rubytapas/
+  format: Screencasts
+  categories:
+    - Screencasts
+  cost: $9 / month
+  description:  Short screencasts three times a week with a wide variety of intermediate to advanced Ruby concepts and techniques, as well as core Object-Oriented design principles.
