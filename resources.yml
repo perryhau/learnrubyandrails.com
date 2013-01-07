@@ -75,6 +75,19 @@
   description: 6 week course dedicated to advancing developer happiness everywhere. Learn Ruby with TDD, Rspec and Cucumber.
 
 -
+  name: Practicing Ruby
+  slug: practicing-ruby
+  topics:
+    - Ruby
+    - Rails
+  url: https://practicingruby.com/
+  format: Online articles
+  cost: 8 dollars a month
+  categories:
+    - Tutorials
+  description: Practicing Ruby publishes fantastic articles every 2 weeks. The content tends to be intermediate to advanced in nature.
+
+-
   name: The Rails Tutorial
   slug: the-rails-tutorial
   topics:
@@ -187,6 +200,19 @@
   cost: Free
   description: A series of lessons with challenges that you can go through in the browser to learn the basics of Ruby.
 
+-
+  name: Codecademy Ruby Track
+  slug: codecademy-ruby
+  topics:
+    - Ruby
+  url: http://www.codecademy.com/tracks/ruby
+  format: Interactive online course
+  categories:
+    - Online Courses
+  course_type:
+    - Self Study
+  cost: Free
+  description: An interaction course to learn the basics of Ruby, with exercises and projects with in browser coding.
 -
   name: Ruby Monk
   slug: ruby-monk
