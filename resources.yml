@@ -75,19 +75,6 @@
   description: 6 week course dedicated to advancing developer happiness everywhere. Learn Ruby with TDD, Rspec and Cucumber.
 
 -
-  name: Practicing Ruby
-  slug: practicing-ruby
-  topics:
-    - Ruby
-    - Rails
-  url: https://practicingruby.com/
-  format: Online articles
-  cost: 8 dollars a month
-  categories:
-    - Tutorials
-  description: Practicing Ruby publishes fantastic articles every 2 weeks. The content tends to be intermediate to advanced in nature.
-
--
   name: The Rails Tutorial
   slug: the-rails-tutorial
   topics:
@@ -348,3 +335,17 @@
     - Screencasts
   cost: $9 / month
   description:  Short screencasts three times a week with a wide variety of intermediate to advanced Ruby concepts and techniques, as well as core Object-Oriented design principles.
+
+-
+  name: Practicing Ruby
+  slug: practicing-ruby
+  topics:
+    - Ruby
+    - Rails
+  url: https://practicingruby.com/
+  format: Online articles
+  cost: 8 dollars a month
+  categories:
+    - Tutorials
+  description: Practicing Ruby publishes fantastic articles every 2 weeks. The content tends to be intermediate to advanced in nature.
+
