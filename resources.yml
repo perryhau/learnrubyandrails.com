@@ -99,18 +99,19 @@
   description: Example applications accompanied by in-depth tutorials that go beyond Rails lessons for beginners.
 
 -
-  name: Rails Tutors
-  slug: rails-tutors
+  name: Tealeaf Academy
+  slug: tealeaf-academy
   topics:
+    - Ruby
     - Rails
-  url: http://www.railstutors.com
-  format: Video lectures, live coding sessions, online forum, chat room and office hours
+  url: http://www.gotealeaf.com
+  format: An intensive online bootcamp to learn Ruby and Rails guided experienced developers.
   categories:
     - Online Courses
-  cost: $295 regular / $270 early bird
+  cost: $475 / $610 / $1475 for courses on different levels
   course_type:
     - Instructor Led
-  description: Four week online course that teachs the basics of Ruby on Rails 3, from the basics to building an app from ground up. The course follows the steps of "tell / show / challenge / explain", providing video lessons with homework assignments and a course project to focus on buiding. There are two office hours every week for live coding sessions, code critiques and Q&A sessions. There's also offline support with online forum and chat rooms.
+  description: Tealeaf Academy offers an online bootcamp for learning web development with Ruby on Rails.It offers a 3-course program for people with differnet levels of experience. The "Introduction to Ruby and Web Development" covers Ruby in the context of Object Oriented Programming and the basic concepts of web development. The "Rapid Prototyping with Ruby on Rails" teaches the foundation of building modern web application with Ruby on Rails, and the "Build Production Quality Applications" teaches how to build well tested, robust and production ready apps.
 
 -
   name: Pragmatic Studios
